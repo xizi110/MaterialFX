@@ -20,7 +20,7 @@
 
 /* COLORS */
 .mfx-slider {
-	-mfx-main-color: rgb(98, 0, 238);
+	-mfx-main-color: -mfx-purple;
 	-mfx-main-color-hover: rgba(98, 0, 238, 0.1);
 	-mfx-main-color-pressed: rgba(98, 0, 238, 0.3);
 	-mfx-disabled-color: rgb(158, 158, 158);

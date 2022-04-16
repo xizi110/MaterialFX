@@ -20,8 +20,8 @@
 @import "MFXColors.css";
 
 .mfx-checkbox {
-	-mfx-main: #6200EE;
-	-mfx-secondary: #424242;
+	-mfx-main: -mfx-purple;
+	-mfx-secondary: derive(-mfx-purple, 20%);
 
 	-fx-font-family: "Open Sans Regular";
 	-fx-text-fill: -mfx-text-he;
@@ -47,7 +47,7 @@
 
 .mfx-checkbox .ripple-container .mfx-ripple-generator {
 	-mfx-animation-speed: 1.5;
-	-mfx-ripple-color: derive(-mfx-main, 110%);
+	-mfx-ripple-color: derive(-mfx-main, 50%);
 	-mfx-ripple-radius: 16;
 }
 
