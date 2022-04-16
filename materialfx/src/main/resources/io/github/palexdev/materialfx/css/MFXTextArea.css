@@ -1,0 +1,53 @@
+/*
+ * Copyright (C) 2022 Parisi Alessandro
+ * This file is part of MaterialFX (https://github.com/palexdev/MaterialFX).
+ *
+ * MaterialFX is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * MaterialFX is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with MaterialFX.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@import "Fonts.css";
+@import "MFXColors.css";
+@import "MFXScrollPane.css";
+
+.mfx-text-area {
+    -mfx-main: -mfx-purple;
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: lightgray;
+    -fx-border-radius: 5;
+    -fx-border-width: 1.5;
+    -fx-padding: 1;
+}
+
+.mfx-text-area:focused .content,
+.mfx-text-area .content {
+    -fx-background-color: white;
+}
+
+
+.mfx-text-area:focused {
+    -fx-background-insets: 2;
+    -fx-border-color: -mfx-main;
+    -fx-border-width: 1.5;
+    -fx-border-insets: 0.5;
+}
+
+.mfx-text-area:focus {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.mfx-text-area:disabled {
+    -fx-border-color: rgba(0, 0, 0, 0.1);
+}
