@@ -258,6 +258,7 @@ public class MFXComboBoxSkin<T> extends MFXTextFieldSkin {
 			};
 			virtualFlow.cellFactoryProperty().bind(comboBox.cellFactoryProperty());
 			virtualFlow.prefWidthProperty().bind(comboBox.widthProperty());
+			virtualFlow.features().enableSmoothScrolling(0.5);
 		}
 		return virtualFlow;
 	}
