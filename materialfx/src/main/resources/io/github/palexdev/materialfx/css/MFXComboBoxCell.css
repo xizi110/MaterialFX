@@ -21,8 +21,8 @@
 
 .mfx-combo-box-cell {
 	-mfx-main: -mfx-purple;
-	-mfx-hover: derive(-mfx-purple, -10%);
-	-mfx-selected: derive(-mfx-purple, 80%);
+	-mfx-hover: derive(-mfx-purple, -5%);
+	-mfx-selected: derive(-mfx-purple, 50%);
 
 	-fx-background-color: transparent;
 	-fx-background-radius: 5;
@@ -40,4 +40,12 @@
 .mfx-combo-box-cell .data-label {
 	-fx-font-family: "Open Sans Regular";
 	-fx-text-fill: -mfx-text-he;
+}
+
+.mfx-combo-box-cell:hover .data-label {
+	-fx-text-fill: ladder(-mfx-hover, white 0%, white 59%, black 60%, black 100%);
+}
+
+.mfx-combo-box-cell:selected .data-label {
+	-fx-text-fill: ladder(-mfx-selected, white 0%, white 59%, black 60%, black 100%);
 }
