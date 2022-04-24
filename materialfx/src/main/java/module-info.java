@@ -88,4 +88,6 @@ module MaterialFX {
 
 	// Validation Package
 	exports io.github.palexdev.materialfx.validation;
+
+	exports io.github.palexdev.materialfx.alerts;
 }

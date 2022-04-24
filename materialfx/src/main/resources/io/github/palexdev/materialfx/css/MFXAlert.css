@@ -1,0 +1,101 @@
+/*
+ * Copyright (C) 2022 Parisi Alessandro
+ * This file is part of MaterialFX (https://github.com/palexdev/MaterialFX).
+ *
+ * MaterialFX is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * MaterialFX is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with MaterialFX.  If not, see <http://www.gnu.org/licenses/>.
+ */
+* {
+    -mfx-alert-info: rgb(41, 182, 246);
+    -mfx-alert-info-text: derive(-mfx-alert-info, -20%);
+    -mfx-alert-info-background: rgb(229, 246, 253);
+
+    -mfx-alert-error: rgb(239, 83, 80);
+    -mfx-alert-error-text: derive(-mfx-alert-error, -20%);
+    -mfx-alert-error-background: rgb(253, 237, 237);
+
+
+    -mfx-alert-warning: rgb(255, 152, 0);
+    -mfx-alert-warning-text: derive(-mfx-alert-warning, -20%);
+    -mfx-alert-warning-background: rgb(255, 244, 229);
+
+
+    -mfx-alert-success: rgb(76, 175, 80);
+    -mfx-alert-success-text: derive(-mfx-alert-success, -20%);
+    -mfx-alert-success-background: rgb(237, 247, 237);
+
+}
+
+.mfx-alert {
+    -fx-padding: 5 10;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-color: -mfx-alert-info-background;
+}
+
+/*=========================mfx-alert-info===========================*/
+.mfx-alert-info {
+    -fx-background-color: -mfx-alert-info-background;
+}
+
+.mfx-alert-info .mfx-font-icon {
+    -mfx-color: -mfx-alert-info;
+}
+
+.mfx-alert .content {
+    -fx-text-fill: -mfx-alert-info-text;
+    -fx-wrap-text: true;
+}
+
+/*=========================mfx-alert-error===========================*/
+.mfx-alert-error {
+    -fx-background-color: -mfx-alert-error-background;
+}
+
+.mfx-alert-error .mfx-font-icon {
+    -mfx-color: -mfx-alert-error;
+}
+
+.mfx-alert-error .content {
+    -fx-text-fill: -mfx-alert-error-text;
+}
+
+/*=========================mfx-alert-warning===========================*/
+.mfx-alert-warning {
+    -fx-background-color: -mfx-alert-warning-background;
+}
+
+.mfx-alert-warning .mfx-font-icon {
+    -mfx-color: -mfx-alert-warning;
+}
+
+.mfx-alert-warning .content {
+    -fx-text-fill: -mfx-alert-warning-text;
+}
+
+/*=========================mfx-alert-success===========================*/
+.mfx-alert-success {
+    -fx-background-color: -mfx-alert-success-background;
+}
+
+.mfx-alert-success .mfx-font-icon {
+    -mfx-color: -mfx-alert-success;
+}
+
+.mfx-alert-success .content {
+    -fx-text-fill: -mfx-alert-success-text;
+}
+
+.mfx-button {
+    -fx-background-color: red !important;
+}
