@@ -40,7 +40,8 @@ public class AlertTest extends Application {
 		button.setDepthLevel(DepthLevel.LEVEL1);
 
 		button.setOnAction(event -> {
-			MFXAlerts.show(stackPane, "https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings", MFXAlert.Type.INFO, Pos.TOP_CENTER);
+			MFXAlerts.show(stackPane, "https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings",
+					MFXAlert.Type.INFO, Pos.TOP_CENTER);
 		});
 
 		stackPane.getChildren().add(button);

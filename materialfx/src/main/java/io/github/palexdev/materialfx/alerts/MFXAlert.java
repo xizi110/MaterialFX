@@ -15,6 +15,8 @@ import java.util.Locale;
 import static io.github.palexdev.materialfx.alerts.MFXAlert.Type.INFO;
 
 /**
+ * 警告弹窗，请使用 MFXAlerts.show() 调用
+ *
  * @author zhong
  * @date 2022-04-22 14:38:51 周五
  */

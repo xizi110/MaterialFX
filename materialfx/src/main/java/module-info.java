@@ -90,4 +90,6 @@ module MaterialFX {
 	exports io.github.palexdev.materialfx.validation;
 
 	exports io.github.palexdev.materialfx.alerts;
+	opens io.github.palexdev.materialfx.alerts to javafx.fxml;
+
 }
